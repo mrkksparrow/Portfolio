@@ -1,441 +1,725 @@
 {% load static %}
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+	<title>Kavin Kumar</title>
+	
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
 
-<head>
-	<title>AjanRaj</title>
-	<meta charset="utf-8">
-	<meta name="robots" content="index,follow" />
-	<meta name="description" content="AjanRaj is a app developer who specializes in Flutter,Django" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link
-		href="data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADQAAAEUAAACBAAAAogAAAKIAAACCAAAARgAAAA4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAAARAAAALUAAADwAAAA/gQEBP8EBAT/AAAA/gAAAPEAAAC2AAAARAAAAAMAAAAAAAAAAAAAAAAAAAAEAAAAaygoKOxbW1v/PT09/42Njf+2trb/tra2/5GRkf9HR0f/CQkJ/wAAAOwAAABsAAAABAAAAAAAAAAAAAAAWwAAAPE3Nzf/6Ojo/6qqqv/BwcH/vLy8/7q6uv/e3t7/8/Pz/6Ghof8cHBz/AAAA8gAAAFwAAAAAAAAAJgAAANQTExP/gYGB/7m5uf/X19f/Kysr/wQEBP8ICAj/Ozs7/4qKiv/w8PD/r6+v/xEREf8AAADUAAAAJwAAAIAAAAD9a2tr/+zs7P9/f3//6urq/2RkZP8ICAj/HR0d/319ff9ERET/bW1t//f39/9sbGz/AAAA/QAAAIIAAADJCgoK/7+/v//Jycn/Gxsb/7CwsP/o6Oj/ycnJ/9XV1f/Jycn/KSkp/w4ODv/IyMj/wMDA/woKCv8AAADKAAAA6BsbG//h4eH/lZWV/wAAAP9TU1P/9/f3/8TExP+srKz/n5+f/zAwMP8AAAD/k5OT/+Li4v8cHBz/AAAA6gAAAOgcHBz/4eHh/5SUlP8AAAD/EBAQ/8PDw/+urq7/W1tb/7Kysv9UVFT/AAAA/5OTk//i4uL/HBwc/wAAAOoAAADJCgoK/8DAwP/IyMj/ERER/wAAAP9mZmb/4ODg/2FhYf/f39//UlJS/wwMDP/Hx8f/wcHB/wsLC/8AAADLAAAAggAAAP1sbGz/9/f3/29vb/8AAAD/GRkZ/83Nzf+5ubn/6Ojo/1BQUP9qamr/9/f3/21tbf8AAAD+AAAAgwAAACcAAADVEhIS/7CwsP/w8PD/fHx8/xoaGv95eXn///////f39/+Li4v/6urq/7Gxsf8SEhL/AAAA1gAAACgAAAAAAAAAXAAAAPIdHR3/o6Oj//X19f/f39//lpaW/97e3v/39/f/m5ub/56env8eHh7/AAAA8gAAAF4AAAAAAAAAAAAAAAQAAABtAAAA7QoKCv9JSUn/lpaW/5OTk/+ampr/+fn5/1NTU/8HBwf/AAAA7QAAAG4AAAAEAAAAAAAAAAAAAAAAAAAAAwAAAEYAAAC4AAAA8gEBAf8EBAT/IiIi/2NjY/8dHR3yAAAAuAAAAEcAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwAAAEgAAACFAAAApQAAAKYAAACFAAAASAAAAA8AAAAAAAAAAAAAAAAAAAAA/D8AAPAPAADgBwAAwAMAAIABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAQAAwAMAAOAHAADwDwAA/D8AAA=="
-		rel="icon" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="{% static 'css/animate.css' %}">
+    
+    <link rel="stylesheet" href="{% static 'css/owl.carousel.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/owl.theme.default.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/magnific-popup.css' %}">
 
-	<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'css/aos.css' %}">
 
-	<link rel="stylesheet"
-		href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css">
-	<link rel="stylesheet" href="{% static './css/animate.css' %}">
-
-	<link rel="stylesheet" href="{% static './css/owl.theme.default.min.css' %}">
-	<link rel="stylesheet" href="{% static './css/magnific-popup.css' %}">
-
-	<link rel="stylesheet" href="{% static './css/aos.css' %}">
-
-	<link rel="stylesheet" href="{% static './css/ionicons.min.css' %}">
-
-	<link rel="stylesheet" href="{% static './css/flaticon.css' %}">
-	<link rel="stylesheet" href="{% static './css/icomoon.css' %}">
-	<link rel="stylesheet" href="{% static './css/style.css' %}">
-
+    <link rel="stylesheet" href="{% static 'css/ionicons.min.css' %}">
+    
+    <link rel="stylesheet" href="{% static 'css/flaticon.css' %}">
+    <link rel="stylesheet" href="{% static 'css/icomoon.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
 	<link rel="stylesheet"
 		href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
-</head>
+  </head>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+	  
+	
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
+	    <div class="container">
+	      <a class="navbar-brand" href="{% static 'index.html' %}"><span>K</span>avinKumar</a>
+	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
 
-<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
-
-
-	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
-		<div class="container">
-			<a class="navbar-brand" href="{% url 'frontend.index' %}"><span>A</span>janRaj</a>
-			<button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse"
-				data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="oi oi-menu"></span> Menu
-			</button>
-
-			<div class="collapse navbar-collapse" id="ftco-nav">
-				<ul class="navbar-nav nav ml-auto">
-					<li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
-					<li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
-					<li class="nav-item"><a href="#resume-section" class="nav-link"><span>Resume</span></a></li>
-					<!-- <li class="nav-item"><a href="#services-section" class="nav-link"><span>Services</span></a></li> -->
-					<li class="nav-item"><a href="#projects-section" class="nav-link"><span>Projects</span></a></li>
-					<!-- <li class="nav-item"><a href="#blog-section" class="nav-link"><span>My Blog</span></a></li> -->
-					<li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
-				</ul>
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav nav ml-auto">
+	          <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
+	          <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
+	          <li class="nav-item"><a href="#resume-section" class="nav-link"><span>Resume</span></a></li>
+	          <li class="nav-item"><a href="#services-section" class="nav-link"><span>Pojects</span></a></li>
+	          <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+	  <section class="hero-wrap js-fullheight">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row no-gutters slider-text js-fullheight justify-content-center align-items-center">
+          <div class="col-lg-8 col-md-6 ftco-animate d-flex align-items-center">
+          	<div class="text text-center">
+          		<span class="subheading">Hey! I am</span>
+		  				<h1>Kavin Kumar M</h1>
+			  				<h2>I'm a 
+								  <span
+								     class="txt-rotate"
+								     data-period="2000"
+								     data-rotate='[ "Web Designer.", "Software Developer.", "Gamer." ]'></span>
+								</h2>
+							</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mouse">
+				<a href="#" class="mouse-icon">
+					<div class="mouse-wheel"><span class="ion-ios-arrow-round-down"></span></div>
+				</a>
 			</div>
-		</div>
-	</nav>
-	<section class="hero-wrap js-fullheight">
-		<div class="overlay"></div>
-		<div class="container">
-			<div class="row no-gutters slider-text js-fullheight justify-content-center align-items-center">
-				<div class="col-lg-8 col-md-6 ftco-animate d-flex align-items-center">
-					<div class="text text-center">
-						<span class="subheading">Hey! I am</span>
-						<h1>AjanRaj.A</h1>
-						<h2>I'm a
-							<span class="txt-rotate " data-period="2000"
-								data-rotate='[ "Web Designer", "App Developer", "Photographer", "Blogger", "Gamer" ]'></span>
-						</h2>
-					</div>
-				</div>
-			</div>
-		</div>
-		</div>
-		<div class="mouse">
-			<a href="#" class="mouse-icon">
-				<div class="mouse-wheel"><span class="ion-ios-arrow-round-down"></span></div>
-			</a>
-		</div>
-	</section>
+    </section>
 
-	<section class="ftco-about img ftco-section ftco-no-pt ftco-no-pb" id="about-section">
-		<div class="container">
-			<div class="row d-flex no-gutters">
-				<div class="col-md-6 col-lg-6 d-flex">
-					<div class="img-about img d-flex align-items-stretch">
-						<div class="overlay"></div>
-						<div class="img d-flex align-self-stretch align-items-center"
-							style="background-image:url({% static 'images/about.jpg' %});">
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6 col-lg-6 pl-md-5 py-5">
-					<div class="row justify-content-start pb-3">
-						<div class="col-md-12 heading-section ftco-animate">
-							<h1 class="big">About</h1>
-							<h2 class="mb-4">About Me</h2>
-							<p>Ever since I was a little kid, computers were my curiosity. I still remember reading
-								computer science topics before my teacher was about to teach students in the classroom.
-								I have been obsessed with the idea of using computers to solve problems in the form of
-								software.</p>
-							<ul class="about-info mt-4 px-md-0 px-2">
-								<li class="d-flex"><span>Name:</span> <span>AjanRaj</span></li>
-								<li class="d-flex"><span>Date of birth:</span> <span>July 25, 2000</span></li>
-								<li class="d-flex"><span>Address:</span> <span>Tuticorin</span></li>
-								<li class="d-flex"><span>Zip code:</span> <span>628003</span></li>
-								<li class="d-flex"><span>Email:</span> <span>sandyajan8@gmail.com</span></li>
-							</ul>
-						</div>
-					</div>
-					<div class="counter-wrap ftco-animate d-flex mt-md-3">
-						<span class="text">
-							<p class="mb-4">
-								<span class="number">{{ length }}</span>
-								<span>Project complete</span>
-							</p>
-							<p><a href="https://github.com/ajanraj"
-									class="btn btn-primary py-3 devicon-github-original px-3"> GITHUB</a></p>
-					</div>
-				</div>
-			</div>
-		</div>
-		</div>
-	</section>
+    <section class="ftco-about img ftco-section ftco-no-pt ftco-no-pb" id="about-section">
+    	<div class="container">
+    		<div class="row d-flex no-gutters">
+    			<div class="col-md-6 col-lg-6 d-flex">
+    				<div class="img-about img d-flex align-items-stretch">
+    					<div class="overlay"></div>
+	    				<div class="img d-flex align-self-stretch align-items-center" style="background-image:url('/static/images/kavin.jpg');">
+	    				</div>
+    				</div>
+    			</div>
+    			<div class="col-md-6 col-lg-6 pl-md-5 py-5">
+    				<div class="row justify-content-start pb-3">
+		          <div class="col-md-12 heading-section ftco-animate">
+		          	<h1 class="big">About</h1>
+		            <h2 class="mb-4">About Me</h2>
+		            <p>A motivated individual with a keen interest in software development and analytical skills, seeking a company to use my technical knowledge catering to the needs of the company while concurrently aiding my personel growth. </p>
+		            <ul class="about-info mt-4 px-md-0 px-2">
+		            	<li class="d-flex"><span>Name:</span> <span>Kavin Kumar M</span></li>
+		            	<li class="d-flex"><span>Date of birth:</span> <span>February 06, 2000</span></li>
+		            	<li class="d-flex"><span>Address:</span> <span>Udumalpet</span></li>
+		            	<li class="d-flex"><span>Zip code:</span> <span>642126</span></li>
+		            	<li class="d-flex"><span>Email:</span> <span>mkavink2000@gmail.com</span></li>
+		            	<li class="d-flex"><span>Phone: </span> <span>+91 7010763556</span></li>
+		            </ul>
+		          </div>
+		        </div>
+	          <div class="counter-wrap ftco-animate d-flex mt-md-3">
+              <div class="text">
+              	<p class="mb-4">
+	                <span class="number" data-number="4">0</span>
+	                <span>Project complete</span>
+                </p>
+                <p><a href="https://github.com/mrkksparrow/" target="_blank" class="btn btn-primary py-3 px-3">GitHub</a></p>
+              </div>
+	          </div>
+	        </div>
+        </div>
+    	</div>
+    </section>
 
-	<section class="ftco-section ftco-no-pb goto-here" id="resume-section">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-3 hide">
-					<nav id="navi">
-						<ul>
-							<li><a href="#page-1">Education</a></li>
-							<li><a href="#page-2">Area of Interest</a></li>
-							<li><a href="#page-3">Skills</a></li>
-							<!-- <li><a href="#page-4">Awards</a></li> -->
-						</ul>
-					</nav>
-				</div>
-				<div class="col-md-9">
-					<div id="page-1" class="page one">
-						<h2 class="heading">Education</h2>
-						<div class="resume-wrap d-flex ftco-animate">
-							<div class="icon d-flex align-items-center justify-content-center">
-								<span class="flaticon-analysis"></span>
-							</div>
-							<div class="text pl-3">
-								<span class="date">2017-2021</span>
-								<h2>B.Tech in Information Technology</h2>
-								<span class="position">Sri Krishna College of Technology</span>
-								<!-- <p>A small river named Duden flows by their place and supplies it with the necessary
-									regelialia. It is a paradisematic country, in which roasted parts of sentences fly
-									into your mouth.</p> -->
-							</div>
-						</div>
-						<div class="resume-wrap d-flex ftco-animate">
-							<div class="icon d-flex align-items-center justify-content-center">
-								<span class="flaticon-ux-design"></span>
-							</div>
-							<div class="text pl-3">
-								<span class="date">2017</span>
-								<h2>HSC</h2>
-								<span class="position">Spic Nagar </span>
-								<!-- <p>A small river named Duden flows by their place and supplies it with the necessary
-									regelialia. It is a paradisematic country, in which roasted parts of sentences fly
-									into your mouth.</p> -->
-							</div>
-						</div>
-						<div class="resume-wrap d-flex ftco-animate">
-							<div class="icon d-flex align-items-center justify-content-center">
-								<span class="flaticon-innovation"></span>
-							</div>
-							<div class="text pl-3">
-								<span class="date">2015</span>
-								<h2>SSLC</h2>
-								<span class="position">D.M.N.S</span>
-								<!-- <p>A small river named Duden flows by their place and supplies it with the necessary
-									regelialia. It is a paradisematic country, in which roasted parts of sentences fly
-									into your mouth.</p> -->
-							</div>
-						</div>
-					</div>
 
-					<div id="page-2" class="page two">
-						<h2 class="heading">Area of Interest</h2>
-						<div class="resume-wrap d-flex ftco-animate">
-							<div class="icon d-flex align-items-center justify-content-center">
-								<span class="devicon-django-plain colored"></span>
-							</div>
-							<div class="text pl-3">
-								<!-- <span class="date">2014-2015</span> -->
+
+    <section class="ftco-section ftco-no-pb goto-here" id="resume-section">
+    	<div class="container">
+    		<div class="row">
+    			<div class="col-md-3">
+				    <nav id="navi">
+					    <ul>
+					      <li><a href="#page-1">Education</a></li>
+					      <li><a href="#page-2">Area of Intrest</a></li>
+					      <li><a href="#page-3">Skills</a></li>
+					      <li><a href="#page-4">Awards</a></li>
+					    </ul>
+					  </nav>
+					</div>
+					<div class="col-md-9">
+					  <div id="page-1" class= "page one">
+					  	<h2 class="heading">Education</h2>
+					    <div class="resume-wrap d-flex ftco-animate">
+					    	<div class="icon d-flex align-items-center justify-content-center">
+					    		<span class="flaticon-ideas"></span>
+					    	</div>
+					    	<div class="text pl-3">
+		    					<span class="date">2017-2021</span>
+		    					<h2>B.Tech Information Technology</h2>
+		    					<span class="position">Sri Krishna College of Technology</span>
+	    					</div>
+	    				</div>
+	    				<div class="resume-wrap d-flex ftco-animate">
+	    					<div class="icon d-flex align-items-center justify-content-center">
+					    		<span class="flaticon-ideas"></span>
+					    	</div>
+					    	<div class="text pl-3">
+		    					<span class="date">2015-2017</span>
+		    					<h2>HSC</h2>
+		    					<span class="position">Srinivasa Vidhyalaya Matric Higher Secondary School</span>
+		    				</div>
+	    				</div>
+	    				<div class="resume-wrap d-flex ftco-animate">
+	    					<div class="icon d-flex align-items-center justify-content-center">
+					    		<span class="flaticon-ideas"></span>
+					    	</div>
+					    	<div class="text pl-3">
+		    					<span class="date">2005-2015</span>
+		    					<h2>SSLC</h2>
+		    					<span class="position">Srinivasa Vidhyalaya Matric Higher Secondary School</span>
+		    				</div>
+	    				</div>
+					  </div>
+
+					  <div id="page-2" class= "page two">
+					  	<h2 class="heading">Area of Intrest</h2>
+					    <div class="resume-wrap d-flex ftco-animate">
+					    	<div class="icon d-flex align-items-center justify-content-center">
+					    		<span class="flaticon-ideas"></span>
+					    	</div>
+					    	<div class="text pl-3">
 								<h2>Full Stack Development</h2>
 								<span class="position">Django</span>
-								<p>Django is a framework built on Python that you can use to build a Content Management
-									System or anything.It’s fast,simple and secure</p>
-							</div>
-						</div>
-						<div class="resume-wrap d-flex ftco-animate">
-							<div class="icon d-flex align-items-center justify-content-center">
-								<span class="devicon-react-original"></span>
-							</div>
-							<div class="text pl-3">
-								<!-- <span class="date">Mobile App Development</span> -->
-								<h2>Mobile App Development</h2>
-								<span class="position">Flutter</span>
-								<p>Beautiful User Interface,highly-customized user experiences can be built easily with
-									the help of widgets in Flutter. Single codebase for IOS and Android and hot reload
-									feature saves a lot of time .</p>
-							</div>
-						</div>
+		    					<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+		    				</div>
+	    				</div>
+	    				<div class="resume-wrap d-flex ftco-animate">
+	    					<div class="icon d-flex align-items-center justify-content-center">
+					    		<span class="flaticon-ideas"></span>
+					    	</div>
+					    	<div class="text pl-3">
+								<h2>Android App Development</h2>
+								<span class="position">Android Studio</span>
+		    					<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+		    				</div>
+	    				</div>
+	    				<div class="resume-wrap d-flex ftco-animate">
+	    					<div class="icon d-flex align-items-center justify-content-center">
+					    		<span class="flaticon-ideas"></span>
+					    	</div>
+					    	<div class="text pl-3">
+								<h2>Custom Rom Development</h2>
+								<span class="position">Python</span>
+		    					<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+		    				</div>
+	    				</div>
+					  </div>
+					  <div id="page-3" class= "page three">
+					  	<h2 class="heading">Skills</h2>
+					  	<div class="row progress-circle mb-5">
+					  		<div class="col-lg-4 mb-4">
+						      <div class="bg-white rounded-lg shadow p-4">
+						        <h2 class="h5 font-weight-bold text-center mb-4">OOPS</h2>
 
+						        <!-- Progress bar 1 -->
+						        <div class="progress mx-auto" data-value='90'>
+						          <span class="progress-left">
+                        <span class="progress-bar border-primary"></span>
+						          </span>
+						          <span class="progress-right">
+                        <span class="progress-bar border-primary"></span>
+						          </span>
+						          <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+						            <div class="h2 font-weight-bold">95<sup class="small">%</sup></div>
+						          </div>
+						        </div>
+						        <!-- END -->
+
+						        <!-- Demo info -->
+						        <div class="row text-center mt-4">
+						          <div class="col-6 border-right">
+						          </div>
+						          <div class="col-6">
+						          </div>
+						        </div>
+						        <!-- END -->
+						      </div>
+						    </div>
+
+						    <div class="col-lg-4 mb-4">
+						      <div class="bg-white rounded-lg shadow p-4">
+						        <h2 class="h5 font-weight-bold text-center mb-4">DS</h2>
+
+						        <!-- Progress bar 1 -->
+						        <div class="progress mx-auto" data-value='80'>
+						          <span class="progress-left">
+                        <span class="progress-bar border-primary"></span>
+						          </span>
+						          <span class="progress-right">
+                        <span class="progress-bar border-primary"></span>
+						          </span>
+						          <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+						            <div class="h2 font-weight-bold">95<sup class="small">%</sup></div>
+						          </div>
+						        </div>
+						        <!-- END -->
+
+						        <!-- Demo info -->
+						        <div class="row text-center mt-4">
+						          <div class="col-6 border-right">
+						          </div>
+						          <div class="col-6">
+						          </div>
+						        </div>
+						        <!-- END -->
+						      </div>
+						    </div>
+
+						    <div class="col-lg-4 mb-4">
+						      <div class="bg-white rounded-lg shadow p-4">
+						        <h2 class="h5 font-weight-bold text-center mb-4">DBMS</h2>
+
+						        <!-- Progress bar 1 -->
+						        <div class="progress mx-auto" data-value='75'>
+						          <span class="progress-left">
+                        <span class="progress-bar border-primary"></span>
+						          </span>
+						          <span class="progress-right">
+                        <span class="progress-bar border-primary"></span>
+						          </span>
+						          <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+						            <div class="h2 font-weight-bold">80<sup class="small">%</sup></div>
+						          </div>
+						        </div>
+						        <!-- END -->
+
+						        <!-- Demo info -->
+						        <div class="row text-center mt-4">
+						          <div class="col-6 border-right">
+						          </div>
+						          <div class="col-6">
+						          </div>
+						        </div>
+						        <!-- END -->
+						      </div>
+						    </div>
+					  	</div>
+					  	<div class="row">
+					  		<div class="col-md-6 animate-box">
+									<div class="progress-wrap ftco-animate">
+										<h3>C++</h3>
+										<div class="progress">
+										 	<div class="progress-bar color-1" role="progressbar" aria-valuenow="95"
+										  	aria-valuemin="0" aria-valuemax="100" style="width:95%">
+										    <span>95%</span>
+										  	</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6 animate-box">
+									<div class="progress-wrap ftco-animate">
+										<h3>Java</h3>
+										<div class="progress">
+										 	<div class="progress-bar color-2" role="progressbar" aria-valuenow="90"
+										  	aria-valuemin="0" aria-valuemax="100" style="width:90%">
+										    <span>90%</span>
+										  	</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6 animate-box">
+									<div class="progress-wrap ftco-animate">
+										<h3>HTML5</h3>
+										<div class="progress">
+										 	<div class="progress-bar color-3" role="progressbar" aria-valuenow="80"
+										  	aria-valuemin="0" aria-valuemax="100" style="width:80%">
+										    <span>80%</span>
+										  	</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6 animate-box">
+									<div class="progress-wrap ftco-animate">
+										<h3>CSS3</h3>
+										<div class="progress">
+										 	<div class="progress-bar color-4" role="progressbar" aria-valuenow="90"
+										  	aria-valuemin="0" aria-valuemax="100" style="width:90%">
+										    <span>90%</span>
+										  	</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6 animate-box">
+									<div class="progress-wrap ftco-animate">
+										<h3>Java Script</h3>
+										<div class="progress">
+										 	<div class="progress-bar color-5" role="progressbar" aria-valuenow="80"
+										  	aria-valuemin="0" aria-valuemax="100" style="width:80%">
+										    <span>80%</span>
+										  	</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6 animate-box">
+									<div class="progress-wrap ftco-animate">
+										<h3>SQL</h3>
+										<div class="progress">
+										 	<div class="progress-bar color-6" role="progressbar" aria-valuenow="70"
+										  	aria-valuemin="0" aria-valuemax="100" style="width:70%">
+										    <span>70%</span>
+										  	</div>
+										</div>
+									</div>
+								</div>
+					  	</div>
+					  </div>
+					  <div id="page-4" class= "page four">
+					    <h2 class="heading">Awards</h2>
+					    <div class="resume-wrap d-flex ftco-animate">
+					    	<div class="icon d-flex align-items-center justify-content-center">
+					    		<span class="flaticon-ideas"></span>
+					    	</div>
+					    	<div class="text pl-3">
+		    					<h2>Rank #1</h2>
+		    					<span class="position">Geeks for Geeks</span>
+		    					<p>Secured first place in my instution by solving more than 300+ problem statements.</p>
+	    					</div>
+	    				</div>
+	    				<div class="resume-wrap d-flex ftco-animate">
+	    					<div class="icon d-flex align-items-center justify-content-center">
+					    		<span class="flaticon-ideas"></span>
+					    	</div>
+					    	<div class="text pl-3">
+		    					<h2>Top 5 in SIH 2019</h2>
+		    					<span class="position">Smart India Hackathon</span>
+		    					<p>Participated among 5000+ members and shortlisted among 100 teams of the Grand Finale</p>
+		    				</div>
+	    				</div>
+					  </div>
 					</div>
-					<div id="page-3" class="page three">
-						<h2 class="heading">Skills</h2>
-						<div class="row progress-circle mb-5">
-							<div class="col-lg-4 mb-4">
-								<div class="bg-white rounded-lg shadow p-4">
-									<h2 class="h5 font-weight-bold text-center mb-4">PYTHON</h2>
+			  </div>
+    	</div>
+    </section>
 
-									<!-- Progress bar 1 -->
-									<div class="progress mx-auto" data-value='90'>
-										<span class="progress-left">
-											<span class="progress-bar border-primary"></span>
-										</span>
-										<span class="progress-right">
-											<span class="progress-bar border-primary"></span>
-										</span>
-										<div
-											class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
-											<div class="h2 font-weight-bold devicon-python-plain colored"><sup
-													class="small"></sup></div>
-										</div>
-									</div>
-
-								</div>
+    <section class="ftco-section" id="services-section">
+    	<div class="container-fluid px-md-5">
+    		<div class="row justify-content-center py-5 mt-5">
+          <div class="col-md-12 heading-section text-center ftco-animate">
+          	<h1 class="big big-2">Services</h1>
+            <h2 class="mb-4">Projects</h2>
+          </div>
+        </div>
+    		<div class="row">
+					<div class="col-md-4 text-center d-flex ftco-animate">
+						<a href="https://github.com/mrkksparrow/Algorithms-Visualization" target="_blank" class="services-1 shadow">
+							<span class="icon">
+								<i class="flaticon-analysis"></i>
+							</span>
+							<div class="desc">
+								<h3 class="mb-5">Algorithm Visualization</h3>
+								<p>A Web Page to demonstrate the alogorithms work flow in virtual manner.</p>
 							</div>
-
-							<div class="col-lg-4 mb-4">
-								<div class="bg-white rounded-lg shadow p-4">
-									<h2 class="h5 font-weight-bold text-center mb-4">HTML</h2>
-
-									<!-- Progress bar 1 -->
-									<div class="progress mx-auto" data-value='80'>
-										<span class="progress-left">
-											<span class="progress-bar border-primary"></span>
-										</span>
-										<span class="progress-right">
-											<span class="progress-bar border-primary"></span>
-										</span>
-										<div
-											class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
-											<div class="h2 font-weight-bold devicon-html5-plain colored"><sup
-													class="small"></sup></div>
-										</div>
-									</div>
-
-								</div>
+						</a>
+					</div>
+					<div class="col-md-4 text-center d-flex ftco-animate">
+						<a href="https://github.com/mrkksparrow/Blood-Bank-Management" target="_blank" class="services-1 shadow">
+							<span class="icon">
+								<i class="flaticon-flasks"></i>
+							</span>
+							<div class="desc">
+								<h3 class="mb-5">Blood Bank Management</h3>
+								<p>An Android Application to store the information of blood donor and retrive the information for the Blood need.</p>
 							</div>
+						</a>
+					</div>
+					<div class="col-md-4 text-center d-flex ftco-animate">
+						<a href="https://github.com/mrkksparrow/HackerRank-Solutions" target="_blank" class="services-1 shadow">
+							<span class="icon">
+								<i class="flaticon-ideas"></i>
+							</span>
+							<div class="desc">
+								<h3 class="mb-5">Hacker Rank Famous Problems</h3>
+								<p>Efficient Solution for some important and frequently asked problem statements in Interview.</p>
+							</div>
+						</a>
+					</div>
 
-							<div class="col-lg-4 mb-4">
-								<div class="bg-white rounded-lg shadow p-4">
-									<h2 class="h5 font-weight-bold text-center mb-4">C</h2>
+				<!--	<div class="col-md-4 text-center d-flex ftco-animate">
+						<a href="#" class="services-1 shadow">
+							<span class="icon">
+								<i class="flaticon-innovation"></i>
+							</span>
+							<div class="desc">
+								<h3 class="mb-5"></h3>
+								<p></p>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-4 text-center d-flex ftco-animate">
+						<a href="#" class="services-1 shadow">
+							<span class="icon">
+								<i class="flaticon-ux-design"></i>
+							</span>
+							<div class="desc">
+								<h3 class="mb-5"></h3>
+								<p></p>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-4 text-center d-flex ftco-animate">
+						<a href="#" class="services-1 shadow">
+							<span class="icon">
+								<i class="flaticon-idea"></i>
+							</span>
+							<div class="desc">
+								<h3 class="mb-5"></h3>
+								<p></p>
+							</div>
+						</a>
+					</div>
+					-->
 
-									<!-- Progress bar 1 -->
-									<div class="progress mx-auto" data-value='75'>
-										<span class="progress-left">
-											<span class="progress-bar border-primary"></span>
-										</span>
-										<span class="progress-right">
-											<span class="progress-bar border-primary"></span>
-										</span>
-										<div
-											class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
-											<div class="h2 font-weight-bold devicon-c-plain colored"><sup
-													class="small"></sup>
-											</div>
-										</div>
-									</div>
+				</div>
+    	</div>
+    </section>
+ 
+<!--
+    <section class="ftco-section ftco-project" id="projects-section">
+    	<div class="container-fluid px-md-0">
+    		<div class="row no-gutters justify-content-center pb-5">
+          <div class="col-md-12 heading-section text-center ftco-animate">
+          	<h1 class="big big-2">Projects</h1>
+            <h2 class="mb-4">Our Projects</h2>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+          </div>
+        </div>
+    		<div class="row no-gutters">
+    			<div class="col-md-4">
+    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/work-1.jpg);">
+    					<div class="overlay"></div>
+	    				<div class="text text-center p-4">
+	    					<h3><a href="#">Branding &amp; Illustration Design</a></h3>
+	    					<span>Web Design</span>
+	    				</div>
+    				</div>
+  				</div>
+  				<div class="col-md-4">
+    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/work-2.jpg);">
+    					<div class="overlay"></div>
+	    				<div class="text text-center p-4">
+	    					<h3><a href="#">Branding &amp; Illustration Design</a></h3>
+	    					<span>Web Design</span>
+	    				</div>
+    				</div>
+  				</div>
+    			<div class="col-md-4">
+    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/work-3.jpg);">
+    					<div class="overlay"></div>
+	    				<div class="text text-center p-4">
+	    					<h3><a href="#">Branding &amp; Illustration Design</a></h3>
+	    					<span>Web Design</span>
+	    				</div>
+    				</div>
+    			</div>
+    			<div class="col-md-4">
+    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/work-4.jpg);">
+    					<div class="overlay"></div>
+	    				<div class="text text-center p-4">
+	    					<h3><a href="#">Branding &amp; Illustration Design</a></h3>
+	    					<span>Web Design</span>
+	    				</div>
+    				</div>
+    			</div>
+    			<div class="col-md-4">
+    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/work-5.jpg);">
+    					<div class="overlay"></div>
+	    				<div class="text text-center p-4">
+	    					<h3><a href="#">Branding &amp; Illustration Design</a></h3>
+	    					<span>Web Design</span>
+	    				</div>
+    				</div>
+    			</div>
+    			<div class="col-md-4">
+    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/work-6.jpg);">
+    					<div class="overlay"></div>
+	    				<div class="text text-center p-4">
+	    					<h3><a href="#">Branding &amp; Illustration Design</a></h3>
+	    					<span>Web Design</span>
+	    				</div>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </section>  -->
 
-								</div>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-md-6 animate-box">
-								<div class="progress-wrap ftco-animate">
-									<h3>Photoshop</h3>
-									<div class="progress">
-										<div class="progress-bar color-1" role="progressbar" aria-valuenow="80"
-											aria-valuemin="0" aria-valuemax="100" style="width:80%">
-											<!-- <span>90%</span> -->
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-6 animate-box">
-								<div class="progress-wrap ftco-animate">
-									<h3>Premiere Pro</h3>
-									<div class="progress">
-										<div class="progress-bar color-2" role="progressbar" aria-valuenow="70"
-											aria-valuemin="0" aria-valuemax="100" style="width:70%">
-											<!-- <span>85%</span> -->
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-6 animate-box">
-								<div class="progress-wrap ftco-animate">
-									<h3>C++</h3>
-									<div class="progress">
-										<div class="progress-bar color-3" role="progressbar" aria-valuenow="75"
-											aria-valuemin="0" aria-valuemax="100" style="width:75%">
-											<!-- <span>75%</span> -->
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-6 animate-box">
-								<div class="progress-wrap ftco-animate">
-									<h3>CSS3</h3>
-									<div class="progress">
-										<div class="progress-bar color-4" role="progressbar" aria-valuenow="70"
-											aria-valuemin="0" aria-valuemax="100" style="width:70%">
-											<!-- <span>70%</span> -->
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
+    <section class="ftco-section ftco-no-pt ftco-no-pb ftco-counter img" id="section-counter">
+    	<div class="container-fluid px-md-5">
+				<div class="row d-md-flex align-items-center">
+          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+            <div class="block-18 shadow">
+              <div class="text">
+                <strong class="number" data-number="3">0</strong>
+                <span>Awards</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+            <div class="block-18 shadow">
+              <div class="text">
+                <strong class="number" data-number="4">0</strong>
+                <span>Complete Projects</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+            <div class="block-18 shadow">
+              <div class="text">
+                <strong class="number" data-number="11">0</strong>
+                <span>Team Work</span>
+              </div>
+            </div>
+		  </div>
+		  <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+            <div class="block-18 shadow">
+              <div class="text">
+                <strong class="number" data-number="23">0</strong>
+                <span>Courses</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="ftco-section" id="blog-section">
+      <div class="container">
+        <div class="row justify-content-center mb-5 pb-5">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+            <h1 class="big big-2">Blog</h1>
+			<h2 class="mb-4">Quick Learner, Team Worker and Coordinator</h2>
+			<p class="mb-0"><a href="https://auth.geeksforgeeks.org/user/mr_kksparrow/practice" target="_blank" class="btn btn-primary py-3 px-5">GeeksforGeeks</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ftco-section ftco-hireme img" style="background-image: url('/static/images/bg_1.jpg')">
+    	<div class="overlay"></div>
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-md-7 ftco-animate text-center">
+						<h2>I'm <span>Available</span> for freelancing</h2>
+						<p class="mb-0"><a href="mailto:mkavink2000@gmail.com" class="btn btn-primary py-3 px-5">Collaborate</a></p>
 					</div>
 				</div>
 			</div>
-		</div>
-	</section>
+		</section>
 
-	<section class="ftco-section ftco-project" id="projects-section">
-		<div class="container-fluid px-md-5">
-			<div class="row justify-content-center py-5 mt-5">
-				<div class="col-md-12 heading-section text-center ftco-animate">
-					<h1 class="big big-2">Projects</h1>
-					<h2 class="mb-4">My Projects</h2>
-					<p>Here are some of the popular projects that I have done till date. All the projects are directly
-						coming from GitHub using GitHub API. Hope you'll like it. Let me know if you find anything
-						useful</p>
-				</div>
-			</div>
-			<div class="row">
-				{% for x,y,z in zipped %}
-				<div class="col-md-4 text-center d-flex ftco-animate">
-					<a href="{{z}}" class="services-1 shadow">
-						<div class="desc">
-							<h3 class="mb-5">{{x}}</h3>
+    <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
+      <div class="container">
+      	<div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+            <h1 class="big big-2">Contact</h1>
+            <h2 class="mb-4">Contact Me</h2>
+          </div>
+        </div>
 
-							<p>{{y}}</p>
-						</div>
-					</a>
-				</div>
-				{% endfor %}
-			</div>
-		</div>
-	</section>
-	<!-- <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
-		<div class="container">
-			<div class="row justify-content-center mb-5 pb-3">
-				<div class="col-md-7 heading-section text-center ftco-animate">
-					<h1 class="big big-2">Contact</h1>
-					<h2 class="mb-4">Contact Me</h2>
-				</div>
-			</div>
+        <div class="row d-flex contact-info mb-5">
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box text-center p-4 shadow">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-map-signs"></span>
+          		</div>
+          		<div>
+	          		<h3 class="mb-4">Address</h3>
+		            <p>13/821, Railway Colony, Udumalpet.</p>
+		          </div>
+	          </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box text-center p-4 shadow">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-phone2"></span>
+          		</div>
+          		<div>
+	          		<h3 class="mb-4">Contact Number</h3>
+		            <p><a href="tel://7010763556">7010763556</a></p>
+	            </div>
+	          </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box text-center p-4 shadow">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-paper-plane"></span>
+          		</div>
+          		<div>
+	          		<h3 class="mb-4">Email Address</h3>
+		            <p><a href="mailto:mkavink2000@gmail.com">mkavink2000@gmail.com</a></p>
+		          </div>
+	          </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box text-center p-4 shadow">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-globe"></span>
+          		</div>
+          		<div>
+	          		<h3 class="mb-4">Website</h3>
+		            <p><a href="#">Portfolio</a></p>
+	            </div>
+	          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+		
 
-			<div class="row d-flex contact-info mb-5">
-				<div class="col-md-6 col-lg-3 d-flex ftco-animate">
-					<div class="align-self-stretch box text-center p-4 shadow">
-						<div class="icon d-flex align-items-center justify-content-center">
-							<span class="icon-github"></span>
-						</div>
-						<div>
-							<h3 class="mb-4"><a href="https://github.com/ajanraj">GITHUB</a></h3>
-						</div>
-					</div>
-				</div>
+    <footer class="ftco-footer ftco-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">About</h2>
+              <p>A motivated individual with a keen interest in software development and analytical skills, seeking a company to use my technical knowledge catering to the needs of the company while concurrently aiding my personel growth.</p>
+              <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+                <li class="ftco-animate"><a href="https://twitter.com/Tech_Kavin" target="_blank"><span class="icon-twitter"></span></a></li>
+                <li class="ftco-animate"><a href="https://www.facebook.com/people/Kavin-Kumar/100013522566705" target="_blank"><span class="icon-facebook"></span></a></li>
+                <li class="ftco-animate"><a href="https://www.instagram.com/__kavin_kumar__/" target="_blank"><span class="icon-instagram"></span></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4 ml-md-4">
+              <h2 class="ftco-heading-2">Links</h2>
+              <ul class="list-unstyled">
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Home</a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>About</a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Projects</a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Contact</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md">
+             <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">Services</h2>
+              <ul class="list-unstyled">
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Web Design</a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>App Development</a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Custom Rom</a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Video Editing</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+            	<h2 class="ftco-heading-2">Have a Questions?</h2>
+            	<div class="block-23 mb-3">
+	              <ul>
+	                <li><span class="icon icon-map-marker"></span><span class="text">13/821, Railway Colony, Udumalpet, Tamil Nadu - 642126</span></li>
+	                <li><a href="tel://7010763556"><span class="icon icon-phone"></span><span class="text">+91 7010763556</span></a></li>
+	                <li><a href="mailto:mkavink2000@gmail.com"><span class="icon icon-envelope"></span><span class="text">mkavink2000@gmail.com</span></a></li>
+	              </ul>
+	            </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center">
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+  
 
-				<div class="col-md-6 col-lg-3 d-flex ftco-animate">
-					<div class="align-self-stretch box text-center p-4 shadow">
-						<div class="icon d-flex align-items-center justify-content-center">
-							<span class="icon-paper-plane"></span>
-						</div>
-						<div>
-							<h3 class="mb-4"><a href="mailto:sandyajan8@gmail.com">Email Address</a></h3>
-
-						</div>
-					</div>
-				</div>
-			</div>
-	</section> -->
-
-
-	<footer class="ftco-footer ftco-section">
-		<div class="container">
-			<div class="row mb">
-				<div class="col-md">
-					<div class="ftco-footer-widget mb-4">
-						<h2 class="ftco-heading-2 ">Let's Connect</h2>
-						<p>Techie, Gamer, Photographer and Learner :)</p>
-						<ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
-							<li class="ftco-animate"><a href="https://www.twitter.com/ajanraj_25"><span
-										class="icon-twitter"></span></a></li>
-							<li class="ftco-animate"><a href="https://www.github.com/ajanraj"><span
-										class="icon-github"></span></a></li>
-							<li class="ftco-animate"><a href="https://www.instagram.com/ajanraj_25"><span
-										class="icon-instagram"></span></a></li>
-						</ul>
-					</div>
-				</div>
-
-			</div>
-			<div class="row">
-				<div class="col-md-12 text-center">
-
-					<p>
-						Copyright &copy;
-						<script>document.write(new Date().getFullYear());</script> All rights reserved
-					</p>
-				</div>
-			</div>
-		</div>
-	</footer>
-
-
-
-	<!-- loader -->
-	<div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
-			<circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
-			<circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
-				stroke="#F96D00" /></svg></div>
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
 
 
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.1.0/jquery-migrate.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/popper.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
@@ -450,7 +734,6 @@
 	<script src="{% static './js/scrollax.min.js' %}"></script>
 
 	<script src="{% static './js/main.js' %}"></script>
-
-</body>
-
+    
+  </body>
 </html>
